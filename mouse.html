@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesmain.css">
+</head>
+<body>
+    <header>
+    <h1>Mouse</h1>
+    <div class="container-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+
+                <div class="container-cart-products hidden-cart">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span id="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">XIAOMI REDMI A2 - 2GB + 32GB - NEGRO</p>
+                            <span class="precio-producto-carrito">₡ 59,900</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+
+                    </div>
+
+                    <div class="cart-total">
+                        <h3>Total</h3>
+                        <span class="total-pagar">₡ 101,900</span>
+                    </div>
+                </div>
+
+            </div>
+
+    </header>
+
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/13158/redragon-m601-centrophorus-2-rgb.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>REDRAGON M601 CENTROPHORUS 2 RGB</h2>
+                <p class="price">₡ 6,500</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://cdn.shopify.com/s/files/1/0021/1012/8230/products/T-TGM307-2831_5_1024x1024@2x.png?v=1568018022"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>T-DAGGER ROADMASTER T-TGM307</h2>
+                <p class="price">₡ 6,900</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/22190/t-dagger-beifaidier-t-tgm206w.jpg">
+            </figure>
+            <div class="info-product">
+                <h2>T-DAGGER BEIFAIDIER - BLANCO - T-TGM206W</h2>
+                <p class="price">₡ 5,500</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/22198/t-dagger-imperial-t-tgm310-v2.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>T-DAGGER IMPERIAL - T-TGM310 V2</h2>
+                <p class="price">₡ 6,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://stagebasegrupo.extremetechcr.com/wp-content/uploads/2022/09/HyperX-Pulsefire-FPS-Core-RGB_SKU_MO1404.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>HYPERX PULSEFIRE FPS CORE RGB</h2>
+                <p class="price">₡ 14,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/27953-large_default/razer-basilisk-v3-x-hyperspeed.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>RAZER BASILISK V3 X HYPERSPEED</h2>
+                <p class="price">₡ 27,500</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/21099/steel-series-aerox-3-edicion-2022-onix.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>STEEL SERIES AEROX 3 EDICION 2022 ONIX</h2>
+                <p class="price">₡ 32,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://www.techzilla.cr/wp-content/uploads/magictoolbox_cache/cf3e6ec01aac7cb79461bcfe9d0d075e/1/8/18817/thumb750x750/2524953986/SteelSeries-Sensei-Ten_SKU_MO0358.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>STEELSERIES SENSEI TEN</h2>
+                <p class="price">₡ 41,500</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/11193/razer-viper-ultimate-wireless.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>RAZER VIPER ULTIMATE - WIRELESS</h2>
+                <p class="price">₡ 45,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://faithtechnologycr.com/wp-content/uploads/2022/06/71L-flqtTwL._AC_SL1500_.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>RAZER BASILISK V3 PRO</h2>
+                <p class="price">₡ 74,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://media.steelseriescdn.com/thumbs/catalog/items/62406/d447dc561ffd4b45a8162f663464f34b.png.1400x1120_q100_crop-fit_optimize.png"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>STEEL SERIES AEROX 5 WIRELESS</h2>
+                <p class="price">₡ 72,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <figure>
+                <img src="https://extremetechcr.com/tienda/27485-large_default/razer-naga-v2-pro-wireless.jpg"
+                    alt="producto">
+            </figure>
+            <div class="info-product">
+                <h2>RAZER NAGA V2 PRO - WIRELESS</h2>
+                <br><p class="price">₡ 87,000</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

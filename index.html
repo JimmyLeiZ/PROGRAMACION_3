@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tienda de productos electronicos</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script defer src="index.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>TecnoWorld</h1>
+		<ul class="menu-horizontal">
+			<li><a href="#">Inicio</a></li>
+			<li>
+				<a href="#">Componentes</a>
+				<ul class="menu-vertical">
+					<li><a href="procesadores.html">Procesadores</a></li>
+					<li><a href="memoriaram.html">Memoria RAM</a></li>
+					<li><a href="tarjetavideo.html">Tarjetas de vídeo</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Perifericos</a>
+				<ul class="menu-vertical">
+					<li><a href="teclados.html">Teclados</a></li>
+					<li><a href="mouse.html">Mouse</a></li>
+					<li><a href="headset.html">Headset</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Celulares</a>
+				<ul class="menu-vertical">
+					<li><a href="xiaomi.html">Xiaomi</a></li>
+					<li><a href="motorola.html">Motorola</a></li>
+					<li><a href="realme.html">Realme</a></li>
+				</ul>
+			</li>
+
+
+			<div class="container-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+					stroke="currentColor" class="icon-cart">
+					<path stroke-linecap="round" stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+				</svg>
+
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<span id="cantidad-producto-carrito"></span>
+							<p class="titulo-producto-carrito"></p>
+							<span class="precio-producto-carrito"></span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+							stroke="currentColor" class="icon-close">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+
+					</div>
+
+					<div class="cart-total">
+						<h3>Total</h3>
+						<span class="total-pagar"></span>
+					</div>
+				</div>
+
+			</div>
+
+	</header>
+
+   <h2>Productos nuevos</h2> 
+
+	<div class="container-items">
+		<div class="item">
+			<figure>
+				<img src="https://www.tiendamonge.com/media/catalog/product/c/e/celular-4g-xiaomi-redmi-a2-negro-32gb-183823_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width="
+					alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>XIAOMI REDMI A2 - 2GB + 32GB - NEGRO</h2>
+				<p class="price">₡ 59,900</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img src="https://xiaomionline.cl/media/catalog/product/cache/2b88132ea045bae0fc2b44a4f558f9b1/c/e/ce504xia05-xiaomi-redmi-a2-32gb-verde-light-green-telefono-celular.png"
+					alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>XIAOMI REDMI A2 - 2GB + 32GB - LIGHT GREEN</h2>
+				<p class="price">₡ 59,900</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img src="https://www.techzilla.cr/wp-content/uploads/2023/03/CEL0447-3.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>XIAOMI REDMI A2 - 2GB + 32GB - LIGHT BLUE</h2>
+				<p class="price">₡ 59,900</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+		<div class="item">
+			<figure>
+				<img src="https://extremetechcr.com/tienda/25647-home_default/xiaomi-redmi-12c-4gb-128gb-ocean-blue.jpg"
+					alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>XIAOMI REDMI A2 - 2GB + 32GB - OCEAN BLUE</h2>
+				<p class="price">₡ 59,900</p>
+				<button>Añadir al carrito</button>
+			</div>
+		</div>
+
+
+    <div class="item">
+      <figure>
+        <img src="https://extremetechcr.com/tienda/28457-large_default/extreme-pc-moba.jpg">
+      </figure>
+      <div class="info-product">
+        <h2>EXTREME PC MOBA</h2>
+        <p class="price">₡ 134,000</p>
+        <button>Añadir al carrito</button>
+      </div>
+    </div>
+    
+
+    <div class="item">
+      <figure>
+        <img src="https://extremetechcr.com/tienda/28459-large_default/amd-extreme-pc.jpg"
+          alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>AMD EXTREME PC</h2>
+        <p class="price">₡ 150,000</p>
+        <button>Añadir al carrito</button>
+      </div>
+    </div>
+    
+
+    <div class="item">
+      <figure>
+        <img src="https://extremetechcr.com/tienda/28460-large_default/extreme-pc-level-2-amd.jpg"
+          alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>EXTREME PC LEVEL 2 AMD</h2>
+        <p class="price">₡ 189,000</p>
+        <button>Añadir al carrito</button>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <figure>
+        <img src="https://extremetechcr.com/tienda/28451-large_default/extreme-pc-level-1-intel.jpg"
+          alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>EXTREME PC LEVEL 1 INTEL</h2>
+        <p class="price">₡ 199,000</p>
+        <button>Añadir al carrito</button>
+      </div>
+    </div>
+	</div>
+</body>
+
+</html>
